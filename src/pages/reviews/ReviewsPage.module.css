@@ -1,10 +1,9 @@
 .container {
   padding: 1rem;
-  border: 1px solid var(--color-border);
 }
 
 .title {
   margin-bottom: 1rem;
-  color: #faca48;
+  color: rgb(0, 0, 0);
   font-size: var(--font-size-h4);
 }

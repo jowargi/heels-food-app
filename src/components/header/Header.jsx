@@ -4,10 +4,10 @@ import styles from "./Header.module.css";
 import classNames from "classnames";
 
 export default function Header() {
-  const {ThemeColor} = useThemeColorContext();
+const {themeColor} = useThemeColorContext()
+
   return (
-    <header className={classNames(styles.header, styles[`header--${ThemeColor}`] 
-    )}>
+    <header className={classNames(styles.header, styles[`header--${themeColor}`])}>
       <h1
         onPointerDown={(event) => event.preventDefault()}
         className={styles.title}

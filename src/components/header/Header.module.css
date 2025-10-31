@@ -3,13 +3,7 @@
   padding-top: 1rem;
 }
 
-.header--light{
-  background-color: white;
-}
 
-.header--dark {
-   background-color: black; 
-}
 .title {
   text-align: center;
   color: rgb(196, 196, 196);
@@ -26,4 +20,25 @@
 
 .container > :not(:last-child) {
   margin-right: 1vw;
+}
+/* ======================================= */
+.header--light {
+  border: 1px solid var(--color-border-l);
+  background-color: var(--color-main-bg-l);
+}
+
+.title--light {
+  color: var(--color-text-heading);
+  font-size: var(--font-size-h1);
+}
+
+.header--dark {
+  border: 1px solid var(--color-border-d);
+  background-color: var(--color-main-bg-d);
+}
+
+.title--dark {
+  color: var(--color-text-heading);
+  font-size: var(--font-size-h1);
+
 }

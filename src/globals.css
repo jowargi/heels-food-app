@@ -1,22 +1,27 @@
 :root {
   /* Цвета фона */
-  --color-main-bg: #f5f7f9;
-  --color-section-bg: #ffffff;
+  --color-main-bg-l: #f5f7f9;
+  --color-section-bg-l: #ffffff;
+
+    --color-main-bg-d: #000000;
+    --color-section-bg-d: #000000;
 
   /* Цвета текста */
-  --color-text-heading: #ffd105;
-  --color-text-p: #ffd105;
+  --color-text-heading-l: #2d3748;
+  --color-text-heading: #2d3748;
+  --color-text-p: #4a5568;
 
   /* Цвета кнопок */
-  --color-button-bg: #edf2f7f6;
-  --color-button-text: #5e6137;
-  --color-button-border: #0f6ed300;
-  --color-button-disabled-bg: #e2e8f000;
-  --color-button-disabled-text: #006eff;
-  --color-button-disabled-border: #e2e8f000;
+  --color-button-bg: #edf2f7;
+  --color-button-text: #2d3748;
+  --color-button-border: #cbd5e0;
+  --color-button-disabled-bg: #e2e8f0;
+  --color-button-disabled-text: #a0aec0;
+  --color-button-disabled-border: #000000;
 
   /* Прочие цвета */
-  --color-border: #e2e8f02c;
+  --color-border-l: #e2e8f0;
+  --color-border-d: #000000;
   --color-spinner: #718096;
   --color-scroll-progress: #ffd563;
   --color-star: #fbff00;
