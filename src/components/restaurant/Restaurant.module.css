@@ -1,10 +1,10 @@
 .container {
-  padding: 1rem;
-  border: 1px solid var(--color-border);
+  padding: 2rem;
+
 }
 
 .title {
   margin-bottom: 1rem;
-  color: var(--color-text-heading);
+  color:  black;
   font-size: var(--font-size-h3);
 }

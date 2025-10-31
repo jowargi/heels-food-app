@@ -1,16 +1,17 @@
 .link {
   display: block;
   padding: 0.5rem;
-  border: 1px solid var(--color-button-border);
-  background-color: var(--color-button-bg);
+  background-color: rgb(255, 209, 84);
   color: var(--color-button-text);
   text-align: center;
   text-decoration: none;
   font-size: var(--font-size-button);
+  transition: 150ms;
 }
 
 .link--active {
   border-color: var(--color-button-disabled-border);
-  background-color: var(--color-button-disabled-bg);
-  color: var(--color-button-disabled-text);
+  background-color: rgb(255, 193, 23);
+  color: black;
+  transform: scale(1.2);
 }
