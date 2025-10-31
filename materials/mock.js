@@ -1,7 +1,7 @@
 export const restaurants = [
   {
     id: "a757a0e9-03c1-4a2a-b384-8ac21dbe2fb2",
-    name: "Dishoom",
+    name: "McDonalds",
     menu: [
       {
         id: "d75f762a-eadd-49be-8918-ed0daa8dd024",
@@ -43,9 +43,9 @@ export const restaurants = [
     menu: [
       {
         id: "25402233-0095-49ea-9939-1e67ed89ffb9",
-        name: "Margarita",
+        name: "Cheese shawarma",
         price: 9,
-        ingredients: ["bread", "cheese", "tomatoes"],
+        ingredients: ['cheese', 'lavash', 'tomatoes', 'cucumbers', 'meat (choose chicken or pork)'],
       },
       {
         id: "90902233-0095-49ea-9939-1e67ed89ffb9",

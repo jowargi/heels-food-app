@@ -5,6 +5,7 @@
   background-color: var(--color-main-bg);
 }
 
+
 .title {
   float: left;
   color: var(--color-text-heading);
@@ -21,4 +22,25 @@
 
 .container > :not(:last-child) {
   margin-right: 1vw;
+}
+/* ======================================= */
+.header--light {
+  border: 1px solid var(--color-border-l);
+  background-color: var(--color-main-bg-l);
+}
+
+.title--light {
+  color: var(--color-text-heading);
+  font-size: var(--font-size-h1);
+}
+
+.header--dark {
+  border: 1px solid var(--color-border-d);
+  background-color: var(--color-main-bg-d);
+}
+
+.title--dark {
+  color: var(--color-text-heading);
+  font-size: var(--font-size-h1);
+
 }
