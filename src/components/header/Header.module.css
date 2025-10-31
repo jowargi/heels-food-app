@@ -1,14 +1,12 @@
 .header {
-  padding: 1rem;
-  border: 1px solid var(--color-border);
-  margin: 1rem;
-  background-color: var(--color-main-bg);
+/*   background-color: black; */
+  padding-top: 1rem;
 }
 
 
 .title {
-  float: left;
-  color: var(--color-text-heading);
+  text-align: center;
+  color: rgb(196, 196, 196);
   font-size: var(--font-size-h1);
   cursor: pointer;
 }

@@ -7,7 +7,6 @@
   flex-direction: row;
   overflow-x: auto;
   padding: 1rem;
-  border: 1px solid var(--color-border);
 }
 
 .item:not(:last-child) {

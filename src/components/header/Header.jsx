@@ -12,7 +12,7 @@ const {themeColor} = useThemeColorContext()
         onPointerDown={(event) => event.preventDefault()}
         className={styles.title}
       >
-        Food App
+        ЖРАКА
       </h1>
       <div className={styles.container}>
         <ThemeColorToggle />
